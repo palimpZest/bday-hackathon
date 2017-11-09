@@ -28,6 +28,19 @@ body {
   text-align: center;
 }
 
+.option-one {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.or-separation {
+  margin: 100px 0 100px 0;
+}
+
+.option-two {
+  margin: 100px 0 100px 0;
+}
+
 /*
  *
  * Navigation
