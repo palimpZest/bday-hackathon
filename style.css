@@ -18,6 +18,7 @@
 /*Styles to start a Bootstrap project*/
 
 body {
+  margin: 50px;
   padding-top: 10px;
   background-color: blue;
 }
@@ -29,23 +30,59 @@ body {
   text-align: center;
 }*/
 
-.option-one h2{
-  margin-top: 200px;
-  margin-bottom: 100px;
+.jumbotron {
+  background-color: blue;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border: 1px ;
+}
+
+
+
+.option-one button{
+  font-size: 3em;
+  width:500px;
+  height: 150px;
   background: white;
   color: blue;
+  border: none;
+  padding: 20 0;
 }
 
 .or-separation {
-  margin: 100px 0 100px 0;
+  
   color: white;
 }
 
-.option-two h2 {
-  margin: 100px 0 100px 0;
+.option-two button {
+  font-size: 3em;
+  width:500px;
+  height: 150px;
   color: blue;
   background: white;
+  border: none;
 }
+
+.options-home {
+
+
+
+}
+
+.bloc-reponse{
+ margin-top: 200px;
+  font-size: 3em;
+  width:500px;
+  height: 150px;
+  background: white;
+  color: blue;
+  border: none;
+  padding: 20 0;
+}
+
+
 
 
 /*
